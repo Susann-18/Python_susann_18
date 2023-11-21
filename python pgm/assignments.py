@@ -17,9 +17,19 @@
 # else:
 #     print("negative")
 # odd or even
-num=(int(input("Enter the odd or even number:")))
-if (num%2)==0:
-    print("the odd number")
+# sum=(int(input("Enter the odd or even number:")))
+# if (sum%2)==0:
+#     print("the odd number")
+# else:
+#     print("the even number")
+sum=(int(input("Enter the leap year")))
+if(sum%4)==0:
+    if(sum%100)==0:
+        if(sum%400)==0:
+            print("the given is leap")
+        else:
+            print("the is not leap")
+    else:
+        print("the is not leap")
 else:
-    print("the even number")
-
+    print("the is not leap")
