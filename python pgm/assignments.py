@@ -22,14 +22,14 @@
 #     print("the odd number")
 # else:
 #     print("the even number")
-sum=(int(input("Enter the leap year")))
-if(sum%4)==0:
-    if(sum%100)==0:
-        if(sum%400)==0:
-            print("the given is leap")
-        else:
-            print("the is not leap")
-    else:
-        print("the is not leap")
-else:
-    print("the is not leap")
+# sum=(int(input("Enter the leap year")))
+# if(sum%4)==0:
+#     if(sum%100)==0:
+#         if(sum%400)==0:
+#             print("the given is leap")
+#         else:
+#             print("the is not leap")
+#     else:
+#         print("the is not leap")
+# else:
+#     print("the is not leap")
