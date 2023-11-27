@@ -23,9 +23,9 @@
 # my_dict={'id':23,'name':'abc','age':56}
 # my_dict['name']='xyz'
 # print(my_dict)
-my_dict={'id':23,'name':'abc','age':56}
-my_dict['company']='spectrum'
-print(my_dict)
+# my_dict={'id':23,'name':'abc','age':56}
+# my_dict['company']='spectrum'
+# print(my_dict)
 # my_dict={'id':23,'name':'abc','age':56}
 # del my_dict['age']
 # print(my_dict)

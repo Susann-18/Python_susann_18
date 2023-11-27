@@ -14,7 +14,7 @@
 # sum=(int(input("Enter a number:")))
 # factorial=1
 # if sum<0:
-#     print("sorry,factorial does not exist for negative number")
+#     print("sorry,factorial negative number")
 # elif sum==0:
 #       print("The factorial of 0 is 1")
 # else:
@@ -54,8 +54,36 @@
 # list=[1,2,3,4,5,6]
 # total=sum(list)
 # print(total)
-
+# 8
+# x=(int(input("Enter a number:")))
+# for n in range(1,51):
+#     print(n,end="")
+# 9
+# num=(int(input("Enter a number:")))
+# if num>1:
+#     for i in range(2,sum):
+#         if(num%i==0):
+#             print("is not a prime number")
+#             break
+#         else:
+#             print("is prime number")
+#     else:
+#         print("is not a prime number")
 
      
 
+
+# lower = 1
+# upper = 20
+
+# print("Prime numbers between", lower, "and", upper, "are:")
+
+# for num in range(lower, upper + 1):
+#    # all prime numbers are greater than 1
+#    if num > 1:
+#        for i in range(2, num):
+#            if (num % i) == 0:
+#                break
+#        else:
+#            print(num)
 
