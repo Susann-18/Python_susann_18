@@ -43,11 +43,9 @@
 #     print(m3,end="")
 #     print()
 # # 6
-# rows=5
-# for i in range(0,rows):
-#     for j in range(0,i+1):
-#         print("*",end="")
-#     print("\n")
+# for i in range(6, 0, -1):
+#     print('*' * i)
+
 
 # # 7 prime number
 # lower=10

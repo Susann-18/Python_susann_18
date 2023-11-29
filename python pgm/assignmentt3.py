@@ -70,8 +70,6 @@
 # print(my_dict.items())
 # my_dict.clear()
 # print(my_dict.clear())
-
-
 # 6.
 # list=[1,2,3,4,5]
 # total=sum(list)
@@ -94,6 +92,16 @@
 #         pass
 # print("Letters", l)
 # print("Digits", d)
+# 9
+# numbers=[1,2,3,4,5]
+# x=map(lambda x:x*2,numbers)
+# print(numbers)
+# print(list(numbers))
+# b=filter(lambda x:x%2==0,numbers)
+# print(list(b))
+# from functools import reduce
+# z=reduce(lambda x,y:x*y,numbers)
+# print(z)
 
 # 10.
 # square=[]
@@ -158,6 +166,17 @@
 # dict={'whillie':'dog','juile':'cat','lakshmi':'cow'}
 # for dict_name,dict_type in dict.items():
 #     print(f"{dict_name} is a {dict_type}.")
+
+# 22
+# def filter_marks(marks):
+#     filtered_marks = {subject: mark for subject, mark in marks.items() if mark > 50}
+#     return filtered_marks
+# marks = {'English': 40, 'Maths': 60, 'Hindi': 30, 'Chemistry': 46, 'Physics': 70}
+# filtered_marks = filter_marks(marks)
+# print(filtered_marks)
+
+
+
 # 23
 # str =input("Input a string: ")
 # d={'digit':0,'letter':0}
