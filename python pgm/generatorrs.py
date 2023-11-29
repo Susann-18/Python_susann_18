@@ -24,3 +24,13 @@
 # print(ordinary)
 # pretty=make_pretty(ordinary)
 # print(pretty())
+
+def make_bold(func):
+    def inner(text):
+        result=func(text)
+        return f"<b>{result}</b>"
+    return inner
+def greet(name):
+    return f"Hello,{name}!"
+decorated_greet=greet("John")
+print(decorated_greet)
