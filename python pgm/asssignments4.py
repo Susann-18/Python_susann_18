@@ -69,21 +69,44 @@
 #             print("is prime number")
 #     else:
 #         print("is not a prime number")
-
-     
-
-
-# lower = 1
-# upper = 20
-
-# print("Prime numbers between", lower, "and", upper, "are:")
-
-# for num in range(lower, upper + 1):
-#    # all prime numbers are greater than 1
-#    if num > 1:
-#        for i in range(2, num):
-#            if (num % i) == 0:
-#                break
-#        else:
-#            print(num)
+# 10
+# num=(int(input("Enter a year:")))
+# def leap_year(year):
+#     if(num%4)==0:
+#         if(num%100)==0:
+#             if(num%400)==0:
+#                 return True
+#     else:
+#         return False
+# if leap_year(num):
+#     print(f"{num} is a leap year.")
+# else:
+#     print(f"{num} is not a leap year.") 
+# 11
+# list_1=[1,2,3,4,5]
+# list_2=['a','b','c','d','e']
+# list=list_1+list_2
+# print(list)
+# 12
+# x_list=[12,56,13,56,64,89,12,56,99,100]
+# dictionary={}
+# for i in x_list:
+#     if i in dictionary:
+#         dictionary[i]+=1
+#     else:
+#         dictionary[i]=1
+# print(dictionary)
+# 13
+# my_list = ["hello", 123, 18, "python", 34.5]
+# if "python" in my_list:
+#     print("'python' is present in the list")
+# else:
+#     print("'python' is not present in the list")
+# 14
+# x=(1,2,3)
+# y=('a','b','c')
+# z=x+y
+# print("x",x)
+# print("y",y)
+# print("Concatenated_tuple:",z)
 

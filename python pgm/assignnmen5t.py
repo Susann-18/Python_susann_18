@@ -94,6 +94,30 @@
 #    print("The factorial of",num,"is",factorial)
 
 
+# 10
+# import time
+# def time_dect(func):
+#     def x(*args,**z):
+#         start_time=time.time()
+#         result=func(*args,**z)
+#         end_time=time.time()
+#         elapsed_time=end_time-start_time
+#         print(f"Time taken to execute{func.__name__}:{elapsed_time}s")
+#         return result
+#     return x
+# def example_func():
+#     time.sleep(2)
+#     print("Function executed")
+# def another_func():
+#     time.sleep(1)
+#     print("Another function executed")
+# if __name__ =="__main__":
+#    example_func()
+#    another_func()
+
+
+
+
 # 11
 # n=(int(input("Enter a number:")))
 # def generator_divide(n):

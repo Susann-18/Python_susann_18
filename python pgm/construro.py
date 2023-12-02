@@ -24,14 +24,14 @@
 # p1=Person("Anu",33)
 # print(p1.name)
 
-class Myname:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
-    def My(self):
-        print("Hello my age is" + self.age)
-p1=Myname("Anu",33)
-p1.age = 33
-p1.name="Anu"
-print(p1.name)
-print(p1.age)
+# class Myname:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def My(self):
+#         print("Hello my age is" + self.age)
+# p1=Myname("Anu",33)
+# p1.age = 33
+# p1.name="Anu"
+# print(p1.name)
+# print(p1.age)
