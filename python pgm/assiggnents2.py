@@ -13,7 +13,7 @@
 # print("value of x:",x)
 # print("value of y:",y)
 
-# # 3year leap
+#  3year leap
 # num=(int(input("Enter the is leap year")))
 # if(num%4)==0:
 #     if(num%100)==0:
