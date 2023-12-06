@@ -30,3 +30,15 @@
 # print("Second =", a.second)
 # print("Microsecond =", a.microsecond)
 
+# import calendar
+# yy=2024
+# print(calendar.calendar(yy))
+
+
+# import math
+# x=math.sqrt(64)
+# print(x)
+# import calendar
+# yy=2024
+# mm=1
+# print(calendar.month(yy,mm))

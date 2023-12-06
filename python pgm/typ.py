@@ -9,9 +9,9 @@
 
 # num=3j+4
 # print(type(num))
-vard=5+5j
-print(type(vard))
-vards=3
-print(type(vards))
-ves=4.6
-print(type(ves))
+# vard=5+5j
+# print(type(vard))
+# vards=3
+# print(type(vards))
+# ves=4.6
+# print(type(ves))

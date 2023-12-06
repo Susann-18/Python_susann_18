@@ -29,7 +29,7 @@
 #         return cls(name, date.today().year - year)
 #     @staticmethod
 #     def isAdult(age):
-#         return age > 18
+#         return age >18
 # person1 = Person('Anu',33)
 # person2 = Person.fromBirthYear('Anu', 1996)
 # print(person1.age)
