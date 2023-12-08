@@ -24,3 +24,9 @@
 #     writer=csv.writer(file)
 #     writer.writerow(["lam","coming","Adoor"])
 #     writer.writerow(["hello","world","in the good"])
+
+# import csv
+# with open("C:/Users/Cyber Security/Desktop/frequency.csv",'r') as file:
+#     reader=csv.reader(file)
+#     for row in reader:
+#         print(row)
