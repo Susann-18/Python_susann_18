@@ -29,14 +29,23 @@
 #     file_list=zipfile.namelist()
 #     print("content of the zipfile",file_list)
 
+# import zipfile
+# file_to_extract = 'zipffile.txt'
+# extraction_path = "C:/Users/Cyber Security/Music"
+# with zipfile.ZipFile('datatest.zip', 'r') as zipf:
+#     if file_to_extract in zipf.namelist():
+#         zipf.extract(file_to_extract, extraction_path)
+#         print(f"'{file_to_extract}' has been extracted to '{extraction_path}'.")
+#     else:
+#         print(f"'{file_to_extract}' does not exist in the ZIP archive.")
+
+
 import zipfile
-
-file_to_extract = 'zipffile.txt'
-extraction_path = "C:/Users/Cyber Security/Music"
-
-with zipfile.ZipFile('datatest.zip', 'r') as zipf:
-    if file_to_extract in zipf.namelist():
-        zipf.extract(file_to_extract, extraction_path)
-        print(f"'{file_to_extract}' has been extracted to '{extraction_path}'.")
+file='zipffile.txt'
+file1="C:/Users/Cyber Security/Music"
+with zipfile.ZipFile("datatest.zip","r") as zipf:
+    if file in zipf.namelist():
+        zipf.extract(file,file1)
+        print(f"'{file} has been extracted to '{file1}'.")
     else:
-        print(f"'{file_to_extract}' does not exist in the ZIP archive.")
+        print(f"'{file} does not exist in the ZIP archive.")
